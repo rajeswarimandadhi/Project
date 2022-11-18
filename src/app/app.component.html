@@ -1,0 +1,20 @@
+<app-header></app-header>
+
+
+<div class="jumbotron jumbtron-fluid">
+  <h3 class="display-4 text-center"><img src="/assets/logo.png"> Lisa Foods</h3>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <br/>
+  <!--<a [routerLink]="['/login']"class="btn btn-primary">Login</a> &nbsp;
+<a [routerLink]="['/sign-up']" class="btn btn-primary">sign Up</a>-->
+<br/>
+<router-outlet></router-outlet>
+</div>

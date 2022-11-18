@@ -1,0 +1,45 @@
+<body>
+	<div class="register">
+		<div class="register-screen">
+			<div class="app-title">
+				<h1>Register</h1>
+			</div>
+
+			<div class="register-form">
+				<div class="control-group">
+				<input type="text" class="register-field" value="" placeholder="userID" id="register-userID">
+				<label class="register-field-icon fui-user" for="register-userID"></label>
+				</div>
+        <div class="control-group">
+          <input type="text" class="register-field" value="" placeholder="FirstName" id="register-FirstName">
+          <label class="register-field-icon fui-user" for="register-FirstName"></label>
+          </div>
+
+          <div class="control-group">
+            <input type="text" class="register-field" value="" placeholder="LastName" id="register-LastName">
+            <label class="register-field-icon fui-user" for="register-LastName"></label>
+            </div>
+
+            <div class="control-group">
+              <input type="text" class="register-field" value="" placeholder="Email" id="register-Email">
+              <label class="register-field-icon fui-user" for="register-Email"></label>
+              </div>
+
+              <div class="control-group">
+                <input type="text" class="register-field" value="" placeholder="gender" id="register-gender">
+                <label class="register-field-icon fui-user" for="register-gender"></label>
+                </div>
+
+
+
+				<div class="control-group">
+				<input type="password" class="register-field" value="" placeholder="password" id="register-pass">
+				<label class="register-field-icon fui-lock" for="register-pass"></label>
+				</div>
+
+				<a class="btn btn-primary btn-large btn-block" href="#">register</a>
+				<a [routerLink]="['/login']">Already a user go and login</a>
+			</div>
+		</div>
+	</div>
+</body>
